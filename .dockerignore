@@ -1,0 +1,19 @@
+.git
+
+*.pyc
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.mypy_cache/
+.env
+.envcopy
+# Virtual environments
+.venv
+*.csv
+.ssh/
+secrets/
