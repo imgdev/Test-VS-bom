@@ -14,4 +14,4 @@ RUN uv sync --frozen
 RUN uv run python convert_ipynb_to_py.py
 
 # run the main app; change 'app.py' if needed
-CMD ["uv", "run", "test.py"]
+CMD ["uv", "run", "Test.py"]
